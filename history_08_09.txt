@@ -1,0 +1,56 @@
+   0 cd /home/
+   1 mkdir animals
+   2 cd animals/
+   3 mkdir dogs cats fish
+   4 cd dogs/
+   5 touch pluto
+   6 cd /home/animals/cats/
+   7 touch garfield
+   8 cd /home/animals/fish/
+   9 touch nemo
+  10 cd
+  11 cd /tmp/
+  12 touch adam
+  13 cd
+  14 cp /tmp/adam /home/humans/adam
+  15 cp - r /tmp/adam /home/humans
+  16 mv /tmp/adam /home/humans
+  17 cd /home/
+  18 ls
+  19 cd
+  20 cd /tmp/
+  21 touch adam
+  22 cd
+  23 cp /tmp/adam /home/humans 
+  24 cd /home/
+  25 ls
+  26 cd
+  27 cp /tmp/adam /home/humans adam
+  28 cd /tmp/
+  29 ls
+  30 cd
+  31 cd /home/ mcdir humans
+  32 cd
+  33 cp /tmp/adam /home/humans 
+  34 cd /home/
+  35 ls
+  36 mkdir humans1
+  37 ls
+  38 cd
+  39 cp /tmp/adam /home/humans1
+  40 cd /home/humans1/
+  41 ls
+  42 cd
+  43 cd /tmp/
+  44 touch evA
+  45 cd
+  46 mv /tmp/evA /opt/eve
+  47 mv /opt/eve /home/humans1
+  48 cd /home/humans1/
+  49 ls
+  50 cd
+  51 history
+  52 history > homeWork1
+  53 ls
+  54 export_file_homeWork1
+  55 history > history_08_09.txt
