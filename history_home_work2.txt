@@ -1,0 +1,43 @@
+   0 cd /home/
+   1 mkdir user
+   2 cd user/
+   3 mkdir start
+   4 cd start/ touch 1.txt
+   5 ls
+   6 touch 1.txt
+   7 ls -l
+   8 echo "Start" >> 1.txt
+   9 ls -l
+  10 data >> 1.txt
+  11 ls -l
+  12 data >>1.txt
+  13 date >> 1.txt
+  14 cat 1.txt
+  15 cd
+  16 cd /opt/ 
+  17 mkdir task
+  18 cd
+  19 cd /opt/
+  20 ls -l
+  21 cd
+  22 cd ..
+  23 cp /home/user/start/1.txt /opt/task/start.txt
+  24 cat /root/ | tail -4 >> /opt/task/start.txt 
+  25 cd /opt/task/
+  26 ls -l
+  27 cd
+  28 cat / | tail -4 >> /opt/task/start.txt 
+  29 cd /opt/task/
+  30 ls
+  31 cat start.txt 
+  32 >> / df -h | tail -4
+  33 cat start.txt 
+  34 cd
+  35 ls -A /
+  36 ls -A | tail -4 >> /opt/task/start.txt 
+  37 cd /opt/task/
+  38 cat start.txt 
+  39 cd
+  40 history
+  41 hictory > home_work2.txt
+  42 history > history_home_work2.txt
