@@ -1,0 +1,24 @@
+#!/bin/bash
+
+mkdir -p /opt/220823_morning/woshe/dirtosavefiles
+
+for run in {1..10}
+do
+    current_time=$(date '+%T')
+    process_count=$(ps -ef | wc -l)
+    echo "Time $current_time, processes $process_count" >> /opt/220823_morning/woshe/dirtosavefiles/timproc.txt
+
+    sleep 1
+df -h  >> /opt/220823_morning/ressleeper.txt
+os_info=$(cat /etc/os-release | grep "NAME=") >> /opt/220823_morning/woshe/ressleeper.txt
+echo "$os_info" >> /opt/220823_morning/woshe/dirtosavefiles/ressleeper.txt
+
+        done
+echo "done"
+
+for run in {50..100}
+do      
+        echo -n "woshe" >> "/opt/220823_morning/woshe/dirtosavefiles/${run}.txt"
+        done
+
+echo "done"
